@@ -1,17 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//                                                                         Day 2
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+/*import {createRoot} from "react-dom/client";
+import AppParentComponent from "./AppParentComponent";
+createRoot(document.getElementById("root")).render(<AppParentComponent/>);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import {createRoot} from "react-dom/client";
+import ClassBased from "./components/ClassBased";
+import FunctionBased from "./components/FunctionBased";
+createRoot(document.getElementById("root")).render(
+<>
+    <ClassBased/>
+    <FunctionBased/>
+</>
+)
+*/
+//                                                                           Day 2
+
+//                                                                           Day 3
+import React from "react";
+import {createRoot} from "react-dom/client";
+import PropsParentComponent from "./Props/PropsParentComponent";
+createRoot(document.getElementById("root")).render(<PropsParentComponent/>)
+//                                                                            Day 3
